@@ -6,14 +6,16 @@ You can find the latest benchmarks on [this page](https://voidfiles.github.io/py
 
 Currently the following projects are benchmarked.
 
-* [Django REST framework](http://www.django-rest-framework.org/)
-* [serpy](http://serpy.readthedocs.io/)
+* [Django REST Framework](http://www.django-rest-framework.org/)
+* [Serpy](http://serpy.readthedocs.io/)
 * [Marshmallow](https://marshmallow.readthedocs.io/en/latest/)
+* [Toasted-Marshmallow](https://github.com/lyft/toasted-marshmallow)
 * [Strainer](https://github.com/voidfiles/strainer)
 * [Lollipop](http://lollipop.readthedocs.io/en/latest/)
-* [kim](http://kim.readthedocs.io/en/latest/)
-* [toasted-marshmallow](https://github.com/lyft/toasted-marshmallow)
+* [Kim](http://kim.readthedocs.io/en/latest/)
 * [Colander](https://docs.pylonsproject.org/projects/colander/en/latest/)
+* [Lima](https://lima.readthedocs.io/)
+* [Pydantic](https://pydantic-docs.helpmanual.io/)
 
 Along with a baseline custom function that doesn't use a framework.
 

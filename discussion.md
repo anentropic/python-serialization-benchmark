@@ -82,6 +82,13 @@ Serialization from python objects to JSON, XML, or other transmission formats is
       <td><a href="http://kim.readthedocs.io/en/latest/user/quickstart.html#marshaling-data">Yes</a></td>
       <td><a href="http://kim.readthedocs.io/en/latest/user/quickstart.html#handling-validation-errors">Yes</a></td>
     </tr>
+    <tr>
+      <td><a href="https://pydantic-docs.helpmanual.io/">Pydantic</a></td>
+      <td><a href="https://pydantic-docs.helpmanual.io/#serialisation">Yes</a></td>
+      <td><a href="https://pydantic-docs.helpmanual.io/#json-serialisation">Yes</a></td>
+      <td>No, but can pass **kwargs to __init__</td>
+      <td><a href="https://pydantic-docs.helpmanual.io/#validators">Yes</a></td>
+    </tr>
   </tbody>
 </table>
 

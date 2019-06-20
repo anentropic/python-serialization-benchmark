@@ -2,10 +2,10 @@ import time
 from tabulate import tabulate
 from contextlib import contextmanager
 
-from subjects import (marsh, rf, serp, strain, col, hand, loli, k, lim, tmarsh)
+from subjects import (marsh, rf, serp, strain, col, hand, loli, k, lim, tmarsh, pydant)
 from data import ParentTestObject
 
-SUBJECTS = (marsh, rf, serp, strain, col, hand, loli, k, lim, tmarsh)
+SUBJECTS = (marsh, rf, serp, strain, col, hand, loli, k, lim, tmarsh, pydant)
 
 test_object = ParentTestObject()
 
@@ -26,6 +26,7 @@ def test_many(func, limit=1000):
 def test_one(func, limit=1000):
     for i in range(0, limit):
         subject.serialization_func(test_object, False)
+
 
 table = []
 for subject in SUBJECTS:

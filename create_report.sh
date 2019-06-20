@@ -4,7 +4,7 @@ cat README.md > REPORT.md
 echo "\`\`\`" >> REPORT.md
 python benchmark.py >> REPORT.md
 echo "\`\`\`" >> REPORT.md
-cat disscussion.md >> REPORT.md
+cat discussion.md >> REPORT.md
 mkdir -p out
 echo '<html>' > out/index.html
 echo '<head>' >> out/index.html
